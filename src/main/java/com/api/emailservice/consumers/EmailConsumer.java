@@ -1,8 +1,8 @@
-package com.api.ms.email.consumers;
+package com.api.emailservice.consumers;
 
-import com.api.ms.email.dtos.EmailDto;
-import com.api.ms.email.models.EmailModel;
-import com.api.ms.email.services.EmailService;
+import com.api.emailservice.dtos.EmailDto;
+import com.api.emailservice.models.EmailModel;
+import com.api.emailservice.services.EmailService;
 import org.springframework.amqp.rabbit.annotation.RabbitListener;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;

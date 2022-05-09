@@ -1,8 +1,9 @@
-package com.api.ms.email.services;
+package com.api.emailservice.services;
 
-import com.api.ms.email.enums.StatusEmail;
-import com.api.ms.email.models.EmailModel;
-import com.api.ms.email.repositories.EmailRepository;
+
+import com.api.emailservice.enums.StatusEmail;
+import com.api.emailservice.models.EmailModel;
+import com.api.emailservice.repositories.EmailRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

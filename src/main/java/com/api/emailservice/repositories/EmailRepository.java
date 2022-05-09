@@ -1,6 +1,6 @@
-package com.api.ms.email.repositories;
+package com.api.emailservice.repositories;
 
-import com.api.ms.email.models.EmailModel;
+import com.api.emailservice.models.EmailModel;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.UUID;

@@ -1,8 +1,8 @@
-package com.api.ms.email.controllers;
+package com.api.emailservice.controllers;
 
-import com.api.ms.email.dtos.EmailDto;
-import com.api.ms.email.models.EmailModel;
-import com.api.ms.email.services.EmailService;
+import com.api.emailservice.dtos.EmailDto;
+import com.api.emailservice.models.EmailModel;
+import com.api.emailservice.services.EmailService;
 import io.swagger.v3.oas.annotations.OpenAPIDefinition;
 import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.info.Info;
